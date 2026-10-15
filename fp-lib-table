@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "UglyFace")(type "KiCad")(uri "${KIPRJMOD}/UglyFace.pretty")(options "")(descr "Pedal footprints (16mm pots, enclosures)"))
+	(lib (name "Casualty")(type "KiCad")(uri "${KIPRJMOD}/Casualty.pretty")(options "")(descr "Casualty 6 footprints (Taiway DPDT)"))
+)
