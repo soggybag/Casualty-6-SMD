@@ -3486,6 +3486,164 @@
 	)
 	(wire
 		(pts
+			(xy 530.86 83.82) (xy 525.78 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8be6c62d-dc41-4b06-af05-3602cea58d48")
+	)
+	(junction
+		(at 528.32 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2540ddb3-f640-44ad-85eb-a10049d30de3")
+	)
+	(wire
+		(pts
+			(xy 525.78 83.82) (xy 525.78 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6fdeea3-8dff-4949-984e-7e4d7d5bb8ef")
+	)
+	(wire
+		(pts
+			(xy 525.78 93.98) (xy 525.78 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4958b8bd-a0ee-4e43-982e-e5699e059e13")
+	)
+	(label "VREF"
+		(at 525.78 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b206d810-f100-460c-855d-4c91e3e921ba")
+	)
+	(wire
+		(pts
+			(xy 528.32 83.82) (xy 528.32 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33db1e74-f12b-423b-809b-cd4f1b5cc72f")
+	)
+	(wire
+		(pts
+			(xy 528.32 88.9) (xy 535.94 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b220d8ac-4fc3-4645-9d0c-f84774610587")
+	)
+	(wire
+		(pts
+			(xy 543.56 88.9) (xy 551.18 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16e2449c-f088-40f6-a15a-22eaabe36d60")
+	)
+	(wire
+		(pts
+			(xy 551.18 88.9) (xy 551.18 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c20bc84a-a2d7-4fdb-8886-68f75abd315e")
+	)
+	(wire
+		(pts
+			(xy 551.18 81.28) (xy 556.26 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fbf579c-8ba6-4b1e-bd99-19dbb2a226e6")
+	)
+	(junction
+		(at 551.18 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "623a7d17-7783-40a5-aef6-ffae58d63428")
+	)
+	(label "X"
+		(at 556.26 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b6de93e-587b-4854-907a-d5bce7448b1b")
+	)
+	(junction
+		(at 525.78 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c92ea6a-0661-4b64-beaa-e61b04b6b473")
+	)
+	(wire
+		(pts
+			(xy 525.78 78.74) (xy 525.78 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf4f8839-7f81-4c87-89f5-3f1808705ea4")
+	)
+	(wire
+		(pts
+			(xy 520.7 73.66) (xy 525.78 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c55e442-be1e-4478-96d6-a9f2d84b7b7f")
+	)
+	(wire
+		(pts
+			(xy 510.54 73.66) (xy 513.08 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c971bcfe-d270-4c3b-89a4-1358ffe09090")
+	)
+	(label "DRY"
+		(at 510.54 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a36ab8c8-791d-4fa7-80f1-a4810bfcddd9")
+	)
+	(wire
+		(pts
 			(xy 30.48 50.8)
 			(xy 25.4 50.8)
 		)
@@ -6291,50 +6449,6 @@
 	)
 	(wire
 		(pts
-			(xy 530.86 83.82)
-			(xy 525.78 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b10b496-1852-434a-b5f9-94a5574c39dd")
-	)
-	(wire
-		(pts
-			(xy 525.78 83.82)
-			(xy 525.78 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "120d4822-a0b1-4100-838d-c69ed816de4f")
-	)
-	(wire
-		(pts
-			(xy 525.78 91.44)
-			(xy 551.18 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c076a762-2cb5-48c6-a4cd-32888837d8a7")
-	)
-	(wire
-		(pts
-			(xy 551.18 91.44)
-			(xy 551.18 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a43e6a1-4415-42d6-bcba-9662200cbd0c")
-	)
-	(wire
-		(pts
 			(xy 546.1 81.28)
 			(xy 551.18 81.28)
 		)
@@ -6626,7 +6740,7 @@
 		)
 		(uuid "ac6e3e0d-1118-41a1-bcf8-53847ddaf2a0")
 	)
-	(label "DRY"
+	(label "X"
 		(at 20.32 185.42 180)
 		(effects
 			(font
@@ -6676,7 +6790,7 @@
 		)
 		(uuid "afa7a849-e768-4a71-a099-be72b43bffbf")
 	)
-	(label "REGEN_IN"
+	(label "REGEN_SUM"
 		(at 167.64 157.48 0)
 		(effects
 			(font
@@ -6726,7 +6840,7 @@
 		)
 		(uuid "a482f0b2-90ed-4382-bfc7-f2b64fd95014")
 	)
-	(label "DRY"
+	(label "X"
 		(at 213.36 177.8 0)
 		(effects
 			(font
@@ -6806,7 +6920,7 @@
 		)
 		(uuid "088ca2b2-4424-4047-bd95-769dd0fd1743")
 	)
-	(label "VREF"
+	(label "REGEN_SUM"
 		(at 523.24 78.74 180)
 		(effects
 			(font
@@ -7073,7 +7187,7 @@
 		)
 		(uuid "5f34da40-e23a-400c-965c-c17935580d00")
 	)
-	(text "U5B spare (follower, can host a new feature)"
+	(text "U5B: REGEN summer, non-inverting x1.68: X = 1.68 (0.6 DRY + 0.4 REGEN). X feeds AP1 and MIX (2026-10-15 sim fix)"
 		(exclude_from_sim no)
 		(at 515.62 99.06 0)
 		(effects
@@ -18943,6 +19057,236 @@
 			(project "Casualty6"
 				(path "/ddad1137-1dd8-4722-992e-184d1837bd0a"
 					(reference "#PWR52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 516.89 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a330d7aa-d42f-4728-b6e6-26da6d822729")
+		(property "Reference" "R48"
+			(at 516.89 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 516.89 70.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 516.89 73.66 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 516.89 73.66 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "REGEN summer: DRY in (with R30 = 0.6 DRY + 0.4 REGEN)"
+			(at 516.89 73.66 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17414"
+			(at 516.89 73.66 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ba812a5e-5608-4e63-95c8-e2fad17388fc")
+		)
+		(pin "2"
+			(uuid "2ddddb86-fd72-45ec-a60b-9387d5b09831")
+		)
+		(instances
+			(project "Casualty6"
+				(path "/ddad1137-1dd8-4722-992e-184d1837bd0a"
+					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 539.75 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1553f0f4-ffb4-4d9e-9ed6-68e1a34508ab")
+		(property "Reference" "R49"
+			(at 539.75 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "6k8"
+			(at 539.75 86.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 539.75 88.9 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 539.75 88.9 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "REGEN summer feedback: gain 1.68 (with R50)"
+			(at 539.75 88.9 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17772"
+			(at 539.75 88.9 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "74cf516f-84c2-4baf-b23d-1414f974b4b0")
+		)
+		(pin "2"
+			(uuid "348f072c-2935-44f0-8018-4a97d7b5868b")
+		)
+		(instances
+			(project "Casualty6"
+				(path "/ddad1137-1dd8-4722-992e-184d1837bd0a"
+					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 525.78 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f365731-22f9-4934-83bd-45f079e84b43")
+		(property "Reference" "R50"
+			(at 528.3199999999999 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 528.3199999999999 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 525.78 90.17 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 525.78 90.17 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "REGEN summer gain leg to VREF"
+			(at 525.78 90.17 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17414"
+			(at 525.78 90.17 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ae9bd9a1-a287-4ab6-82d4-a3227374e8a4")
+		)
+		(pin "2"
+			(uuid "da248e74-563b-4add-85ac-cda7a42bbfc8")
+		)
+		(instances
+			(project "Casualty6"
+				(path "/ddad1137-1dd8-4722-992e-184d1837bd0a"
+					(reference "R50")
 					(unit 1)
 				)
 			)
