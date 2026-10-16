@@ -85,3 +85,8 @@ Simulated results (6-stage, MIX max):
 - **PCB:** R48–R50 placed beside U5 (R49 between pins 6 and 7); all pad nets synced from the netlist.
   - Full re-route (Freerouting, 400 passes): **DRC 0 errors, 0 unconnected, parity 0**; 74 vias (was 53); silkscreen warnings only.
 - **Toggle footprints:** `Casualty:SW_Taiway_100_DPDT_PC` now has UF1's slots: 3.4 × 2.2 pads, 2.6 × 1.1 oval drills.
+- **CV IN / LFO OUT pads (2026-10-15):**
+  - J6 CV IN → R51 10k → CV node (sums with the RANGE / LFO divider).
+  - J7 LFO OUT ← R52 1k ← U6B output.
+  - J6 and J7 sit on the left board edge (x 112.5, y 102.5 / 114).
+  - Full re-route: DRC 0 / 0 unconnected / parity 0, 75 vias.

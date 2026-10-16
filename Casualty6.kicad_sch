@@ -3486,6 +3486,103 @@
 	)
 	(wire
 		(pts
+			(xy 538.48 162.56) (xy 541.02 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db096993-4e3b-4ba2-b761-b6641dde4f8b")
+	)
+	(wire
+		(pts
+			(xy 548.64 162.56) (xy 553.72 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46798bea-eea1-401d-8f57-dc7abbf11960")
+	)
+	(label "CV"
+		(at 553.72 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf24572f-67c0-4b15-9457-70ab342326fc")
+	)
+	(wire
+		(pts
+			(xy 538.48 175.26) (xy 543.56 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fae11933-f779-46bb-ac30-94f0d1b1d446")
+	)
+	(label "LFO_OUT"
+		(at 543.56 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c1fba86d-e4eb-40a7-8d16-cfb1626637c6")
+	)
+	(text "CV IN / LFO OUT (2026-10-15): hooks for a random / S&H LFO or other modulation. Leave unconnected if unused."
+		(exclude_from_sim no)
+		(at 521.97 185.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ce81cecf-68ed-447d-b65d-4539a88945ac")
+	)
+	(junction
+		(at 223.52 269.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e28b53e3-8788-4be0-bb06-9b0ba6209a2f")
+	)
+	(wire
+		(pts
+			(xy 223.52 269.24) (xy 223.52 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff0fba65-4db5-4cf6-872d-c3892e11f8e1")
+	)
+	(wire
+		(pts
+			(xy 223.52 279.4) (xy 223.52 281.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7002ce4-2230-4050-bc52-3e7064b15d82")
+	)
+	(label "LFO_OUT"
+		(at 223.52 281.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c7f02ed-7336-4a55-8da5-625354c8faac")
+	)
+	(wire
+		(pts
 			(xy 530.86 83.82) (xy 525.78 83.82)
 		)
 		(stroke
@@ -19287,6 +19384,292 @@
 			(project "Casualty6"
 				(path "/ddad1137-1dd8-4722-992e-184d1837bd0a"
 					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 533.4 162.56 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "101d6398-68be-4638-bd63-e0a1291f29fc")
+		(property "Reference" "J6"
+			(at 530.86 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CV IN"
+			(at 530.86 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm"
+			(at 533.4 162.56 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 533.4 162.56 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Wire pad: external CV into the CV node via R51 10k (sums with RANGE / LFO)"
+			(at 533.4 162.56 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f11f4dd2-9956-4ca7-87e6-cb2b16e1c639")
+		)
+		(instances
+			(project "Casualty6"
+				(path "/ddad1137-1dd8-4722-992e-184d1837bd0a"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 533.4 175.26 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "ed30de50-0973-422c-8b0e-b42896e8e8e0")
+		(property "Reference" "J7"
+			(at 530.86 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LFO OUT"
+			(at 530.86 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm"
+			(at 533.4 175.26 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 533.4 175.26 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Wire pad: buffered LFO out via R52 1k (for an LED, or to drive another effect)"
+			(at 533.4 175.26 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f8944d3f-e567-48d9-b076-e5a359e76397")
+		)
+		(instances
+			(project "Casualty6"
+				(path "/ddad1137-1dd8-4722-992e-184d1837bd0a"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 544.83 162.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c720435-544e-42b4-8c86-22e283150d99")
+		(property "Reference" "R51"
+			(at 544.83 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 544.83 159.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 544.83 162.56 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 544.83 162.56 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CV IN series resistor"
+			(at 544.83 162.56 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17414"
+			(at 544.83 162.56 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ee95c980-1934-4ab1-b71b-7556bee61850")
+		)
+		(pin "2"
+			(uuid "a84b9f0f-fcd9-444a-aaa9-263aa61aa05a")
+		)
+		(instances
+			(project "Casualty6"
+				(path "/ddad1137-1dd8-4722-992e-184d1837bd0a"
+					(reference "R51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 223.52 275.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa5e5a04-9ee0-4ee8-bfc8-1d896fd7942b")
+		(property "Reference" "R52"
+			(at 220.98 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 220.98 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 223.52 275.59 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 275.59 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LFO OUT series resistor (protects U6B)"
+			(at 223.52 275.59 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17513"
+			(at 223.52 275.59 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c5abce94-77ff-43e5-bcb1-28ece36134ee")
+		)
+		(pin "2"
+			(uuid "8f860ac7-55dc-44bb-aed3-6f1f310559dd")
+		)
+		(instances
+			(project "Casualty6"
+				(path "/ddad1137-1dd8-4722-992e-184d1837bd0a"
+					(reference "R52")
 					(unit 1)
 				)
 			)
