@@ -90,3 +90,28 @@ Simulated results (6-stage, MIX max):
   - J7 LFO OUT ← R52 1k ← U6B output.
   - J6 and J7 sit on the left board edge (x 112.5, y 102.5 / 114).
   - Full re-route: DRC 0 / 0 unconnected / parity 0, 75 vias.
+
+## Pre-order review (2026-10-18)
+
+Whole circuit checked against the netlist:
+- power / VREF;
+- the 4 OTA all-pass stages (DC OK: the feedback absorbs the buffer's ~1.3 V drop);
+- STAGES / PHASE-FILTER switching, the REGEN summer, AP1 / AP2, the mixer, LEVEL, the LFO (RATE faster clockwise), CV IN / LFO OUT.
+
+**Changed:**
+1. **RANGE loading fixed.** RV4 B50k + R43 47k was loaded by the four 10k Iabc resistors (2.5k), so RANGE only acted in its last ~25 % (41 → 121 µA up to 75 %, then 677 µA).
+   - Now **RV4 B10k, R43 2k2, R5 / R11 / R17 / R23 15k**: Iabc at the LFO peak ≈ 26 / 85 / 144 / 235 / 457 µA at 0 / 25 / 50 / 75 / 100 %.
+   - Even sweep; the top notch is a little lower.
+2. **R53 1M input pulldown** (IN → GND): no pop when switching in.
+
+**Board:** in place (the user's silk positions kept), re-routed: DRC 0 errors / 0 unconnected / parity clean, 78 vias.
+
+**Listen for on the first build:**
+- OTA grit at hard playing / high REGEN (R3 / R9 / R15 / R21 2k → 1k5);
+- PHASE / FILTER mode (not simulated);
+- LFO tick.
+
+**Before ordering:**
+- source a **C500k** RATE pot (B500k fallback);
+- **RV4 is now B10k**;
+- test-fit 7 pots + 2 toggles in the 1590BB.
