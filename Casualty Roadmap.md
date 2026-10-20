@@ -55,3 +55,13 @@ The same random generator + GLIDE, driving a **resonant OTA filter** (LM13700, 2
   - Frobnicator;
   - a Eurorack random/S&H module (Euro-LFO / Mutant family).
 - The Sharkfin build (madbean PCB, didn't work; suspected the F/SH 3PDT fitted rotated 90°) is the reference for the filter sound.
+
+## JLC order notes (2026-10-19)
+
+- **IC rotation in JLC's placement preview was inconsistent** with the same `positions.csv` (U1 270°, U2–U6 90°):
+  - JLCONE desktop app: U1–U6 rotated;
+  - first web order: correct;
+  - second web order: rotated again (legs across the pads).
+- **Fix on the order:** rotated U1–U6 90° clockwise in the web viewer, so pin 1 (pink dot) matches the small arrow on the silkscreen.
+- **Not changed in KiCad:** the inconsistency is on JLC's side (the preview may carry over rotations from earlier, deleted orders).
+- **Next order:** check every IC in the web viewer. Legs must sit along the pads, and pin 1 must match the silkscreen arrow. If they come out rotated again, add a hidden `FT Rotation Offset` 270 to U1–U6 (LM13700 C1346265, TL072 C6961).
