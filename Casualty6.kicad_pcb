@@ -815,6 +815,18 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "270"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1e0fe9eb-5cec-4472-b9c5-34217b53b620")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/b2f07962-7264-44e4-8fb8-09dcb70d36be")
 		(sheetname "/")
 		(sheetfile "Casualty6.kicad_sch")
@@ -2280,6 +2292,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "a58924e9-41c3-419b-b75a-bb4eb9e6a7c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "270"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6a919ca8-79e3-44bb-8f87-4b693e38ae8d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5281,6 +5305,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "0ea2ac4b-089f-4e44-a1de-7c438d38a355")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "270"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ef5c0e2d-1358-4c91-8931-7988fb16c03f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8786,6 +8822,18 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "270"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3c81d26b-8838-4b70-bf97-309bbeedd9d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/be891137-eb23-4f13-9a46-bed5927ca969")
 		(sheetname "/")
 		(sheetfile "Casualty6.kicad_sch")
@@ -9965,6 +10013,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "1637c15c-81b6-4dc6-9f21-1288df53fd39")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "270"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "22bfa0c8-7ae0-45e0-84d1-7b3d46b2e7c1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14476,6 +14536,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "d5348798-da98-47ab-a384-c09f3ebe423d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "270"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "02f72642-ab27-4274-8ae0-979ec06a1151")
 			(effects
 				(font
 					(size 1.27 1.27)

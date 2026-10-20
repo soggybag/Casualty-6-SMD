@@ -63,5 +63,5 @@ The same random generator + GLIDE, driving a **resonant OTA filter** (LM13700, 2
   - first web order: correct;
   - second web order: rotated again (legs across the pads).
 - **Fix on the order:** rotated U1–U6 90° clockwise in the web viewer, so pin 1 (pink dot) matches the small arrow on the silkscreen.
-- **Not changed in KiCad:** the inconsistency is on JLC's side (the preview may carry over rotations from earlier, deleted orders).
-- **Next order:** check every IC in the web viewer. Legs must sit along the pads, and pin 1 must match the silkscreen arrow. If they come out rotated again, add a hidden `FT Rotation Offset` 270 to U1–U6 (LM13700 C1346265, TL072 C6961).
+- **Third web order:** rotated again, so 2 of 3 web uploads agree. **Fixed in KiCad:** hidden `FT Rotation Offset` 270 on U1–U6 (schematic, every unit, and board). `positions.csv` now has U1 180°, U2–U6 0°.
+- **Next order:** check every IC in the web viewer anyway. Legs must sit along the pads, and pin 1 must match the silkscreen arrow. If they ever come out rotated the other way, remove the offset.
