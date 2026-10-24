@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="114.0mm" height="143.5mm" viewBox="-57.0 -71.75 114.0 143.5" font-family="Helvetica">
+<rect x="-47.0" y="-59.75" width="94.0" height="119.5" rx="4" fill="none" stroke="black" stroke-width="0.3"/>
+<text x="-47.0" y="-62.75" font-size="3">Casualty 6 — 1590BB side A (face), outside view, 1:1. Origin = centre.</text>
+<line x1="-3" y1="0" x2="3" y2="0" stroke="#999" stroke-width="0.15"/><line x1="0" y1="-3" x2="0" y2="3" stroke="#999" stroke-width="0.15"/>
+<circle cx="-30.0" cy="-26.5" r="3.75" fill="none" stroke="black" stroke-width="0.25"/><line x1="-31.0" y1="-26.5" x2="-29.0" y2="-26.5" stroke="red" stroke-width="0.15"/><line x1="-30.0" y1="-27.5" x2="-30.0" y2="-25.5" stroke="red" stroke-width="0.15"/>
+<text x="-30.0" y="-19.75" font-size="2.2" text-anchor="middle">RATE Ø7.5</text>
+<circle cx="-10.0" cy="-26.5" r="3.75" fill="none" stroke="black" stroke-width="0.25"/><line x1="-11.0" y1="-26.5" x2="-9.0" y2="-26.5" stroke="red" stroke-width="0.15"/><line x1="-10.0" y1="-27.5" x2="-10.0" y2="-25.5" stroke="red" stroke-width="0.15"/>
+<text x="-10.0" y="-19.75" font-size="2.2" text-anchor="middle">SHAPE Ø7.5</text>
+<circle cx="10.0" cy="-26.5" r="3.75" fill="none" stroke="black" stroke-width="0.25"/><line x1="9.0" y1="-26.5" x2="11.0" y2="-26.5" stroke="red" stroke-width="0.15"/><line x1="10.0" y1="-27.5" x2="10.0" y2="-25.5" stroke="red" stroke-width="0.15"/>
+<text x="10.0" y="-19.75" font-size="2.2" text-anchor="middle">WIDTH Ø7.5</text>
+<circle cx="30.0" cy="-26.5" r="3.75" fill="none" stroke="black" stroke-width="0.25"/><line x1="29.0" y1="-26.5" x2="31.0" y2="-26.5" stroke="red" stroke-width="0.15"/><line x1="30.0" y1="-27.5" x2="30.0" y2="-25.5" stroke="red" stroke-width="0.15"/>
+<text x="30.0" y="-19.75" font-size="2.2" text-anchor="middle">RANGE Ø7.5</text>
+<circle cx="-20.0" cy="-1.5" r="3.75" fill="none" stroke="black" stroke-width="0.25"/><line x1="-21.0" y1="-1.5" x2="-19.0" y2="-1.5" stroke="red" stroke-width="0.15"/><line x1="-20.0" y1="-2.5" x2="-20.0" y2="-0.5" stroke="red" stroke-width="0.15"/>
+<text x="-20.0" y="5.25" font-size="2.2" text-anchor="middle">REGEN Ø7.5</text>
+<circle cx="0.0" cy="-1.5" r="3.75" fill="none" stroke="black" stroke-width="0.25"/><line x1="-1.0" y1="-1.5" x2="1.0" y2="-1.5" stroke="red" stroke-width="0.15"/><line x1="0.0" y1="-2.5" x2="0.0" y2="-0.5" stroke="red" stroke-width="0.15"/>
+<text x="0.0" y="5.25" font-size="2.2" text-anchor="middle">MIX Ø7.5</text>
+<circle cx="20.0" cy="-1.5" r="3.75" fill="none" stroke="black" stroke-width="0.25"/><line x1="19.0" y1="-1.5" x2="21.0" y2="-1.5" stroke="red" stroke-width="0.15"/><line x1="20.0" y1="-2.5" x2="20.0" y2="-0.5" stroke="red" stroke-width="0.15"/>
+<text x="20.0" y="5.25" font-size="2.2" text-anchor="middle">LEVEL Ø7.5</text>
+<circle cx="-10.0" cy="21.5" r="3.25" fill="none" stroke="black" stroke-width="0.25"/><line x1="-11.0" y1="21.5" x2="-9.0" y2="21.5" stroke="red" stroke-width="0.15"/><line x1="-10.0" y1="20.5" x2="-10.0" y2="22.5" stroke="red" stroke-width="0.15"/>
+<text x="-10.0" y="27.75" font-size="2.2" text-anchor="middle">STAGES 4/6 Ø6.5</text>
+<circle cx="10.0" cy="21.5" r="3.25" fill="none" stroke="black" stroke-width="0.25"/><line x1="9.0" y1="21.5" x2="11.0" y2="21.5" stroke="red" stroke-width="0.15"/><line x1="10.0" y1="20.5" x2="10.0" y2="22.5" stroke="red" stroke-width="0.15"/>
+<text x="10.0" y="27.75" font-size="2.2" text-anchor="middle">PHASE/FILTER Ø6.5</text>
+<circle cx="0.0" cy="21.5" r="1.6" fill="none" stroke="black" stroke-width="0.25"/><line x1="-1.0" y1="21.5" x2="1.0" y2="21.5" stroke="red" stroke-width="0.15"/><line x1="0.0" y1="20.5" x2="0.0" y2="22.5" stroke="red" stroke-width="0.15"/>
+<text x="0.0" y="26.1" font-size="2.2" text-anchor="middle">LED Ø3.2</text>
+<circle cx="0.0" cy="39.0" r="6.1" fill="none" stroke="black" stroke-width="0.25"/><line x1="-1.0" y1="39.0" x2="1.0" y2="39.0" stroke="red" stroke-width="0.15"/><line x1="0.0" y1="38.0" x2="0.0" y2="40.0" stroke="red" stroke-width="0.15"/>
+<text x="0.0" y="48.1" font-size="2.2" text-anchor="middle">Footswitch 3PDT Ø12.2</text>
+<rect x="-25" y="63.75" width="50" height="5" fill="none" stroke="black" stroke-width="0.2"/><text x="-24" y="67.55" font-size="2.5">Check: this box = 50 × 5 mm printed</text></svg>

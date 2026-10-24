@@ -1,0 +1,12 @@
+Side,Label,X (mm),Y (mm),"Diameter (mm, raw aluminium)"
+A,"RATE",-30.0,26.5,7.5
+A,"SHAPE",-10.0,26.5,7.5
+A,"WIDTH",10.0,26.5,7.5
+A,"RANGE",30.0,26.5,7.5
+A,"REGEN",-20.0,1.5,7.5
+A,"MIX",0.0,1.5,7.5
+A,"LEVEL",20.0,1.5,7.5
+A,"STAGES 4/6 toggle (SW1)",-10.0,-21.5,6.5
+A,"PHASE/FILTER toggle (SW2)",10.0,-21.5,6.5
+A,"LED (3 mm)",0.0,-21.5,3.2
+A,"Footswitch 3PDT",0.0,-39.0,12.2
